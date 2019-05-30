@@ -1,0 +1,141 @@
+
+/* ----  CATEGORY TABS SECTION CSS ---- */
+.cat-tab-2{
+
+}
+.cat-tab-2 .panel {
+	border: none;
+	margin-bottom: 10px;
+	
+}
+.cat-tab-2 .panel-tabs> li {
+	width: 50%;
+	float: right;
+}
+.cat-tab-2 .heading-2 {
+	padding-top: 20px;
+	
+}
+.cat-tab-2 ul.panel-tabs{
+	background-color: #1a5ba4;
+	margin: 0px;
+	padding: 0px;
+}
+.cat-tab-2 .panel-primary> .panel-heading {
+	background-color: transparent;
+	border: medium none;
+	border-radius: 0;
+	box-shadow: none;
+	padding: 0;
+}
+.cat-tab-2 .panel-body {
+	padding: 0 15px;
+}
+.cat-tab-2 .panel-tabs> li a i {
+	color: #242424;
+	font-size: 35px;
+	font-weight: normal;
+}
+.cat-tab-2 .panel-tabs > li > a {
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid #323e48;
+    color: #1A1A1A;
+    background: #FFF;
+}
+.cat-tab-2 .panel-tabs> li> a:hover {
+	background-color: transparent;
+	color:#FFFFFF;
+}
+.cat-tab-2 .panel-tabs> li {
+	border: none;
+}
+.cat-tab-2 .panel-tabs > li.active a {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid #1A5BA4;
+    color: #FFFFFF;
+    background-color: #1A5BA4;
+}
+.cat-tab-2 .panel-tabs> li.active> a i,
+.cat-tab-2 .panel-tabs> li.active> a:hover i,
+.cat-tab-2 .panel-tabs> li.active> a:focus i {
+	color:#1A1A1A;
+}
+.cat-tabs .panel-body {
+	padding-top: 80px;
+	padding-bottom: 0;
+}
+.cat-tab-2 .panel-primary .panel-tabs> li.active a::before,
+.cat-tab-2 .panel-primary .panel-tabs> li.active a::after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.cat-tab-2 .panel-primary .panel-tabs > li.active a::after {
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #1a5ba4;
+    border-width: 10px;
+    margin-left: -10px;
+}
+.cat-tab-2 .panel-primary .panel-tabs > li.active a:before {
+    border-color: rgba(107, 194, 66, 0);
+    border-top-color: #1a5ba4;
+    border-width: 11px;
+    margin-left: -11px;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+/*Category Tabs*/
+	.cat-tab-2 .panel-tabs> li {
+		width: 100%;
+		border: 1px solid #FFF;
+	}
+	.cat-tab-2 .panel-primary .panel-tabs> li.active a::before, .cat-tab-2 .panel-primary .panel-tabs> li.active a::after {
+		content: "";
+		border: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cat-tab-2{
+	text-align: justify;
+	direction: rtl;
+}
+.cat-tab-2 h2{
+	font-size: 24px;
+	color: #637f00;
+	font-weight: bold;
+}

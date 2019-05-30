@@ -1,0 +1,65 @@
+<?php
+return [
+    // menu
+    'Types of rooms'                   => 'انواع اتاق',
+    'Rooms'                            => 'اتاق ها',
+    'Discounts'                        => 'تخفیفات',
+    'Locks'                            => 'قفل ها',
+    //
+    // Type of rooms
+    'Name'                             => 'نام',
+    //
+    // Rooms
+    'Room'                             => 'اتاق',
+    'Room Name'                        => 'نام اتاق',
+    'Room type'                        => 'نوع اتاق',
+    'Price'                            => 'قیمت',
+    'Price per person added'           => 'قیمت هر نفر همراه',
+    'Number of beds'                   => 'تعداد تخت',
+    'Maximum capacity'                 => 'حداکثر ظرفیت',
+    'Status'                           => 'وضعیت',
+    'Active'                           => 'فعال',
+    'Images'                           => 'تصاویر',
+    'Possibilities'                    => 'امکانات',
+    //
+    // Discounts & Locks
+    'Start Date'                       => 'تاریخ شروع',
+    'End Date'                         => 'تاریخ پایان',
+    'Type of discount'                 => 'نوع تخفیف',
+    'Percentage'                       => 'درصد',
+    'Value'                            => 'مقدار',
+    'Select at least one room.'        => 'حداقل یک اتاق انتخاب کنید.',
+    'No room was found.'               => 'اتاقی یافت نشد.',
+    'No discount was found.'           => 'تخفیفی یافت نشد.',
+    //
+    // Reservations
+    'Ongoing reservations'             => 'رزرو های درحال انجام',
+    'Definitive reservations'          => 'رزرو های قطعی شده',
+    'Canceled reservations'            => 'رزرو های لغو شده',
+    'Tracking code'                    => 'کد پیگیری',
+    'Entry date'                       => 'تاریخ ورود',
+    'Date of departure'                => 'تاریخ خروج',
+    'National Code'                    => 'کد ملی',
+    'First name'                       => 'نام',
+    'Last name'                        => 'نام خانوادگی',
+    'Mobile'                           => 'شماره تلفن همراه',
+    'Email'                            => 'پست الکترونیکی',
+    'Discount'                         => 'تخفیف',
+    'Discount name'                    => 'نام تخفیف',
+    'Discount price'                   => 'مبلغ تخفیف',
+    'Total amount including discounts' => 'جمع کل با احتساب تخفیف',
+    'Number of entourage'              => 'تعداد همراهان',
+    'Room charge'                      => 'هزینه اتاق',
+    'Cost of attendees'                => 'هزینه همراهان',
+    'Total'                            => 'جمع کل',
+    'Tax'                              => 'مالیات',
+    'Complications'                    => 'عوارض',
+    'The amount payable'               => 'مبلغ قابل پرداخت',
+    'Room reservation'                 => 'رزرو اتاق',
+    'National Code is not valid.'      => 'کد ملی معتبر نمی باشد',
+    'Number of days stay'              => 'تعداد روز اقامت',
+    'Number of nights'                 => 'تعداد شب اقامت',
+    'Cost per night stay'              => 'هزینه هر شب اقامت',
+    'Cost per person added'            => 'هزینه هر نفر همراه',
+    'Capacity is exceeded'             => 'ظرفیت بیش از حد مجاز می باشد',
+];

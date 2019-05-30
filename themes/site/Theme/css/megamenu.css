@@ -1,0 +1,132 @@
+
+.mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown-menu {
+    padding: 5px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+	
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+	text-align: right;
+	direction: rtl;	
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #323232;
+  padding: 3px 3px;
+	font-size: 13px;
+
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: underline;
+	color: #337ab7;
+}
+.mega-dropdown-menu .dropdown-header {
+  font-size: 14px;
+  color: #ff3546;
+  padding: 5px 5px 5px 5px;
+	border-bottom: 1px solid #d1d3d4;
+	line-height: 27px;
+	margin-bottom: 3px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #ff3546;
+  background-color: transparent;
+}
+.mega-dropdown-menu h3{
+	text-align: right;
+	border-bottom: 1px solid #d1d3d4;
+	direction: rtl;
+	font-size: 14px;
+}
+.mega-dropdown-menu p{
+	text-align: justify;
+	direction: rtl;
+	font-size: 12px;
+}
+
+
+#top-megamenu .carousel-control {
+  width: 30px;
+  height: 30px;
+  top: -35px;
+
+}
+#top-megamenu .left.carousel-control {
+  right: 30px;
+  left: inherit;
+}
+#top-megamenu  .carousel-control .glyphicon-chevron-left, 
+#top-megamenu .carousel-control .glyphicon-chevron-right {
+  font-size: 12px;
+  background-color: #fff;
+  line-height: 30px;
+  text-shadow: none;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+
+
+
+
+#top-megamenu .navbar-inverse .navbar-collapse, 
+#top-megamenu .navbar-inverse .navbar-form{
+	background-color: transparent !important;
+}
+#top-megamenu .navbar-inverse .navbar-collapse,
+#top-megamenu .navbar-inverse .navbar-form{
+	background-color: transparent !important;
+}
+#top-megamenu .navbar-inverse .navbar-collapse, 
+#top-megamenu .navbar-inverse .navbar-form{
+	background-color: transparent !important
+}
+#top-megamenu .navbar-inverse{
+	background-color: transparent !important
+}
+#top-megamenu .navbar-inverse {
+	background-color: transparent !important;
+}
+#top-megamenu .navbar{
+	border: none;
+	margin-bottom: 0px;
+}
+
+#top-megamenu .navbar-collapse{
+	padding: 0px;
+}
+#top-megamenu .navbar-nav > li{
+	float: right;
+}
+#top-megamenu .navbar-right{
+	margin-right: 0px;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover {
+  color: #000;
+  background-color: #98c300;
+}
+.navbar-inverse .navbar-nav > .open > a:focus{
+	background-color: transparent;
+	color: #9d9d9d
+	
+}
+#top-megamenu #contact_menu .dropdown-menu{
+	text-align: right;
+	right:0 !important;
+	left: auto !important;
+	width: 180px;
+}

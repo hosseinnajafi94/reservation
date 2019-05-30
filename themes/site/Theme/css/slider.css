@@ -1,0 +1,52 @@
+#BSlider .carousel-caption {  
+  /* This section calls the dropHeader animation we defined above */
+  animation: 3s ease-out 0s 1 dropHeader;
+}
+	
+	#full-deep-linkr-wrapper{
+		height: 300px;
+		width: 100%;
+		background-color: #00769f;
+		text-align: center;
+        background-size: cover;		
+		background-image: url(images/bg_home.jpg)
+	}
+	#BSlider{
+		height: auto;
+		width: 100%;
+	}
+	#BSlider #myCarousel{
+		height: auto;
+		background-color:#3b97f8;
+		
+	}
+	#BSlider .item{
+		text-align: center;
+		height: 350px;
+		
+	}
+	#BSlider img{
+		margin: 0 auto;
+		position: relative;
+	}	
+	.carousel-control.left,.carousel-control.right{
+		background-image: none;
+	}
+	#BSlider .carousel-caption{
+		direction: rtl;
+		text-align: left;
+
+	}
+
+	
+	#BSlider .carousel-caption a{
+		color:#FFFFFF;
+  animation-delay: 3s;		
+	}
+	#BSlider .carousel-caption a:hover{
+		color: #FFE74B
+	}
+	#BSlider .carousel-caption .btn{
+		width: 200px !important;
+		
+	}
